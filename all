@@ -75,7 +75,7 @@ def month_dictionary():
 
 
 def get_contract_date(input_line):
-    '''This function returns the month in which that car was sold'''
+    '''This function returns the month in which that car was sold.'''
     contract_date = input_line[1].split('/')
     contract_date = int(contract_date[0])
     return contract_date
